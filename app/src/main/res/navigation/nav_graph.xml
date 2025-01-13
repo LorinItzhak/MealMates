@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mealmates.view.LoginFragment"
+        android:label="Login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.mealmates.view.RegisterFragment"
+        android:label="Register" />
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.mealmates.view.FeedFragment"
+        android:label="Feed" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.mealmates.view.PostFragment"
+        android:label="Post" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.mealmates.view.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/editPostFragment"
+        android:name="com.example.mealmates.view.EditPostFragment"
+        android:label="Edit Post" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.mealmates.view.FavoritesFragment"
+        android:label="Favorites" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.mealmates.view.MapFragment"
+        android:label="Map" />
+</navigation>
