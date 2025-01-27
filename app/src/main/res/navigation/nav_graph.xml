@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/loginFragment">
 
     <fragment
@@ -35,4 +36,25 @@
         android:id="@+id/mapFragment"
         android:name="com.example.mealmates.view.MapFragment"
         android:label="Map" />
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mealmates.view.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Chats Fragment -->
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="com.example.mealmates.view.ChatsFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_chats" />
+
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.example.mealmates.view.NewPostFragment"
+        android:label="newPost"
+        tools:layout="@layout/fragment_new_post" />
+
 </navigation>
